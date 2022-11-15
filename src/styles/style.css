@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url('/assets/fonts/TTLakesCondensed-Medium.eot');
+    src: local('TT Lakes Condensed Medium'), local('TTLakesCondensed-Medium'),
+        url('/assets/fonts/TTLakesCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/TTLakesCondensed-Medium.woff') format('woff'),
+        url('/assets/fonts/TTLakesCondensed-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('/assets/fonts/TTLakes-DemiBoldItalic.eot');
+    src: local('TT Lakes DemiBold Italic'), local('TTLakes-DemiBoldItalic'),
+        url('/assets/fonts/TTLakes-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/TTLakes-DemiBoldItalic.woff') format('woff'),
+        url('/assets/fonts/TTLakes-DemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+body {
+
+    margin: 0px;
+    font-family: 'TT Lakes Condensed';
+    min-width: 300px;
+    max-width: 1921px;
+    font-weight: 500;
+    background-color: #F8F8F8;
+}
+
+
+.burger__menu{
+    width: 320px;
+    overflow: auto;
+    box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+}
+.burger-header{
+    cursor: pointer;
+    height: 88px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.burger-header__item--close{
+    content: url("/assets/img/Closeburger.svg");
+    
+}
+.burger-header__item--logo {
+    content: url("/assets/img/Group.svg");
+}
+.burger-header__item--search{
+    padding-left: 40px;
+    content: url("/assets/img/search.svg");
+}
+.burger-header__item:hover{
+    transition-duration: 0.8s;
+    transform: scale(1.5);
+}
+.burger__menu--maintext p{
+    padding-top:16px;
+    padding-left: 24px;
+    cursor:default;
+}
+.burger__menu--maintext p:hover{
+    color: #999999;
+    background:no-repeat url("/assets/img/highlightburger.svg") top 15px left 0px;
+}
+.burger-footer{
+    cursor:default;
+    margin-top: 130px;
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.burger-footer__nav{
+    cursor: pointer;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 168px;
+    height: 80px;
+    padding-right: 80px;
+}
+
+.burger-footer__item--call {
+    content: url("/assets/img/call.svg");
+}
+
+.burger-footer__item--chat {
+    content: url("/assets/img/chat.svg");
+}
+
+.burger-footer__item--profile {
+    content: url("/assets/img/profile.svg");
+}
+.burger-footer__item:hover{
+
+    transition-duration: 0.8s;
+    transform: scale(1.5);
+}
+.main__mail{
+    height: 40px;
+    font-size: 18px;
+}
+.main__hotline{
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-size: 24px;
+    line-height: 32px;
+}
+.burger__footer--language{
+    font-size: 16px;
+    line-height: 24px;
+    display:flex;
+
+    justify-content: flex-start;
+    cursor:default;
+}
+
+.burger__footer--lang--ru{
+
+}
+.burger__footer--lang--en{
+    padding-left:5px;
+}
+.burger__footer--lang--ch{
+    padding-left:5px;
+}
+.burger__footer--lang:hover{
+    color: #cccccc;
+
+}
+/*----------------------------------медиа-----------------------------------------------*/
