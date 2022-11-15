@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'TT Lakes Condensed';
-    src: url('/assets/fonts/TTLakesCondensed-Medium.eot');
+    src: url('/Burger-project/assets/fonts/TTLakesCondensed-Medium.eot');
     src: local('TT Lakes Condensed Medium'), local('TTLakesCondensed-Medium'),
-        url('/assets/fonts/TTLakesCondensed-Medium.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/TTLakesCondensed-Medium.woff') format('woff'),
-        url('/assets/fonts/TTLakesCondensed-Medium.ttf') format('truetype');
+        url('/Burger-project/assets/fonts/TTLakesCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/Burger-project/assets/fonts/TTLakesCondensed-Medium.woff') format('woff'),
+        url('/Burger-project/assets/fonts/TTLakesCondensed-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'TT Lakes';
-    src: url('/assets/fonts/TTLakes-DemiBoldItalic.eot');
+    src: url('/Burger-project/assets/fonts/TTLakes-DemiBoldItalic.eot');
     src: local('TT Lakes DemiBold Italic'), local('TTLakes-DemiBoldItalic'),
-        url('/assets/fonts/TTLakes-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/TTLakes-DemiBoldItalic.woff') format('woff'),
-        url('/assets/fonts/TTLakes-DemiBoldItalic.ttf') format('truetype');
+        url('/Burger-project/assets/fonts/TTLakes-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('/Burger-project/assets/fonts/TTLakes-DemiBoldItalic.woff') format('woff'),
+        url('/Burger-project/assets/fonts/TTLakes-DemiBoldItalic.ttf') format('truetype');
     font-weight: 600;
     font-style: italic;
 }
@@ -46,15 +46,15 @@ body {
 
 }
 .burger-header__item--close{
-    content: url("/assets/img/Closeburger.svg");
+    content: url("/Burger-project/assets/img/Closeburger.svg");
     
 }
 .burger-header__item--logo {
-    content: url("/assets/img/Group.svg");
+    content: url("/Burger-project/assets/img/Group.svg");
 }
 .burger-header__item--search{
     padding-left: 40px;
-    content: url("/assets/img/search.svg");
+    content: url("/Burger-project/assets/img/search.svg");
 }
 .burger-header__item:hover{
     transition-duration: 0.8s;
@@ -67,7 +67,7 @@ body {
 }
 .burger__menu--maintext p:hover{
     color: #999999;
-    background:no-repeat url("/assets/img/highlightburger.svg") top 15px left 0px;
+    background:no-repeat url("/Burger-project/assets/img/highlightburger.svg") top 15px left 0px;
 }
 .burger-footer{
     cursor:default;
@@ -89,15 +89,15 @@ body {
 }
 
 .burger-footer__item--call {
-    content: url("/assets/img/call.svg");
+    content: url("/Burger-project/assets/img/call.svg");
 }
 
 .burger-footer__item--chat {
-    content: url("/assets/img/chat.svg");
+    content: url("/Burger-project/assets/img/chat.svg");
 }
 
 .burger-footer__item--profile {
-    content: url("/assets/img/profile.svg");
+    content: url("/Burger-project/assets/img/profile.svg");
 }
 .burger-footer__item:hover{
 
